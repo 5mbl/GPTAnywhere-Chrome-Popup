@@ -1,4 +1,4 @@
-//import Browser from "webextension-polyfill";
+import Browser from "webextension-polyfill";
 const searchInput = document.getElementById('input-el');
 const buttonEl = document.getElementById('submit-btn');
 const answerEl = document.getElementById('answer-el');
@@ -8,12 +8,12 @@ async function run(question) {
   container.className = "chat-gpt-container"; 
   container.innerHTML = '<p class="loading">Waiting for ChatGPT response...</p>'; 
 
- //const port = Browser.runtime.connect(); 
+ const port = Browser.runtime.connect(); 
   
   port.onMessage.addListener(function (msg) {
     if (msg.answer) {
+      console.log("message: " + msg ); // <-- Console.Log
       container.innerHTML = '<p><span class="prefix">ChatGPT:</span><pre></pre></p>';
-      //container.querySelector("pre").textContent = msg.answer; 
       answerEl.textContent = msg.answer; 
       container.innerHTML =
         '<p>Einloggen bei <a href="https://chat.openai.com" target="_blank">chat.openai.com</a> first</p>';

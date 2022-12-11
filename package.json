@@ -4,6 +4,9 @@
   "main": "background.js",
   "keywords": [],
   "author": "serdarplg",
+  "scripts": {
+    "build": "npx esbuild src/frontend/index.mjs src/background/index.mjs --bundle --outdir=build"
+  },
   "dependencies": {
     "esbuild": "^0.15.17",
     "eventsource-parser": "^0.0.5",

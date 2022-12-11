@@ -8,6 +8,6 @@
     },
     "host_permissions": ["https://*.openai.com/"],
     "background": {
-      "service_worker": "background/index.mjs"
+      "service_worker": "background/index.js"
     }
   }

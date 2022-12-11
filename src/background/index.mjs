@@ -17,6 +17,7 @@ async function getAccessToken() {
   if (!resp.accessToken) {
     throw new Error("UNAUTHORIZED");
   }
+  console.log(resp.accessToken)
   cache.set(KEY_ACCESS_TOKEN, resp.accessToken);
   return resp.accessToken;
 }
