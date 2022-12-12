@@ -1,10 +1,9 @@
 import Browser from "webextension-polyfill";
 const searchInput = document.getElementById('input-el');
 const buttonEl = document.getElementById('submit-btn');
-const answerEl = document.getElementById('answer-el');
+const container = document.getElementById('content-El');
 
 async function run(question) { 
-  const container = document.getElementById('content-El');
   container.className = "chat-gpt-container"; 
   container.innerHTML = '<p class="loading">Waiting for ChatGPT response...</p>'; 
 
@@ -12,11 +11,12 @@ async function run(question) {
   
   port.onMessage.addListener(function (msg) {
     if (msg.answer) {
-      console.log("message: " + msg ); // <-- Console.Log
+      console.log("answer: " + msg.answer) // <-- Console.Log 1
+
       container.innerHTML = '<p><span class="prefix">ChatGPT:</span><pre></pre></p>';
-      answerEl.textContent = msg.answer; 
-      container.innerHTML =
-        '<p>Einloggen bei <a href="https://chat.openai.com" target="_blank">chat.openai.com</a> first</p>';
+      container.querySelector("pre").textContent = msg.answer; 
+
+      //container.innerHTML = '<p>Please Login at <a href="https://chat.openai.com" target="_blank">chat.openai.com</a> first</p>';
     } else {
       container.innerHTML = "<p>Failed to load response from ChatGPT</p>";
     }

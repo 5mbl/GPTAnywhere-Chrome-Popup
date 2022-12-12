@@ -61,8 +61,11 @@ async function getAnswer(question, callback) {
 Browser.runtime.onConnect.addListener((port) => {
   port.onMessage.addListener(async (msg) => {
     console.debug("received msg", msg);
+    //console.log("received msg" + msg);
+    //console.log("received question: " + msg.question);
     try {
       await getAnswer(msg.question, (answer) => {
+        console.log("answer:" + answer);
         port.postMessage({ answer });
       });
     } catch (err) {
