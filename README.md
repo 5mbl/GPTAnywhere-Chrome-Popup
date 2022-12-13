@@ -13,7 +13,7 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
 
-<h5>Installing guide:</h4>
+<h4>Installing guide:</h4>
 After installing the zip & opening the folder. Open the Terminal in that Path and write: "npm run build"
 
 It will create a build folder. 
@@ -29,6 +29,9 @@ Then you copy paste the following files into your build folder:
 
 the manifest.json files into the root of the build folder and the follwing
 
-You can now unpack it in your chrome extension (chrome://extensions/)
+
+<h3 align="left">Images 📸</h3>
 
 ![product1](https://user-images.githubusercontent.com/73127647/207451659-16c2e516-cd4b-4cc7-b1be-b243602cd3d7.png)
+![image](https://user-images.githubusercontent.com/73127647/207453214-d4aa09d3-ff6a-4ead-bceb-1eb4a3fe5406.png)
+
