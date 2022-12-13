@@ -4,10 +4,10 @@ const buttonEl = document.getElementById('submit-btn');
 const container = document.getElementById('content-El');
 
 async function run(question) { 
-  container.className = "chat-gpt-container"; 
+//  container.className = "chat-gpt-container"; 
   container.innerHTML = '<p class="loading">Waiting for ChatGPT response...</p>'; 
 
- const port = Browser.runtime.connect(); 
+  const port = Browser.runtime.connect(); 
   
   port.onMessage.addListener(function (msg) {
     if (msg.answer) {
@@ -18,7 +18,19 @@ async function run(question) {
 
       //container.innerHTML = '<p>Please Login at <a href="https://chat.openai.com" target="_blank">chat.openai.com</a> first</p>';
     } else {
-      container.innerHTML = "<p>Failed to load response from ChatGPT</p>";
+      container.innerHTML = `
+      <section class="hero-area">
+        <div class="container">
+            <div class="hero-inner-item">
+                <h2>🖖 You are nearly ready!</h2>
+                <p>You need to login into your openAI <br> Account first!</p>
+                <a href="https://chat.openai.com/auth/login">Login</a>
+            </div>
+        </div>
+    </section>
+      
+      
+      `;
     }
   });
   port.postMessage({ question });
@@ -32,15 +44,3 @@ buttonEl.addEventListener("click",()=>{
         run(searchInput.value);
     }
 })
-
-// DEEL
-/*
-// INPUT VALUE = QUESTION for ChatGPT
-const searchInput = document.getElementsByName("q")[0];
-if (searchInput && searchInput.value) {
-  // only run on first page
-  const startParam = new URL(location.href).searchParams.get("start") || "0";
-  if (startParam === "0") {
-    run(searchInput.value);
-  }
-}*/

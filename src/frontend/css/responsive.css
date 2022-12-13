@@ -1,0 +1,280 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .col-50 {
+        width: 50%;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+
+
+
+    .logo a {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .logo img {
+        width: 65px;
+    }
+
+    .hero-inner-item h2 {
+        font-size: 25px;
+    }
+
+    .hero-inner-item p {
+        font-size: 16px;
+    }
+
+    .hero-inner-item a {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        display: inline-block;
+        padding: 10px 77px;
+    }
+
+    .keyword-potmpt-form form input {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #777E91;
+        width: 100%;
+        padding: 15px 16px;
+
+    }
+
+    .submit- button {
+        border: none;
+        outline: none;
+        background: #45B36B;
+        border-radius: 12px;
+        padding: 11px 9px;
+    }
+    .submit- button img {
+        width: 20px;
+    }
+
+    .key-wrod-inner p {
+        font-size: 16px;
+    }
+    .x-icon img {
+        width: 11px;
+      }
+      .x-icon {
+        width: 25px;
+        height: 25px;
+        background-color: #EF466F;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 25px;
+      }
+
+
+      .col-50 {
+        width: 100%;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+
+    .logo a {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .logo img {
+        width: 65px;
+    }
+
+    .hero-inner-item h2 {
+        font-size: 25px;
+    }
+
+    .hero-inner-item p {
+        font-size: 16px;
+    }
+
+    .hero-inner-item a {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        display: inline-block;
+        padding: 10px 77px;
+    }
+
+    .keyword-potmpt-form form input {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #777E91;
+        width: 100%;
+        padding: 15px 16px;
+
+    }
+
+    .submit- button {
+        border: none;
+        outline: none;
+        background: #45B36B;
+        border-radius: 12px;
+        padding: 11px 9px;
+    }
+    .submit- button img {
+        width: 20px;
+    }
+
+    .key-wrod-inner p {
+        font-size: 16px;
+    }
+    .x-icon img {
+        width: 11px;
+      }
+      .x-icon {
+        width: 25px;
+        height: 25px;
+        background-color: #EF466F;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 25px;
+      }
+
+
+      .col-50 {
+        width: 100%;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

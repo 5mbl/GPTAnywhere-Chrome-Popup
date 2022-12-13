@@ -1,20 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chatGPToverflow-Chrome</title>
-    <link rel="stylesheet" href="index.css">
+      <!-- Meta setup -->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Title -->
+      <title>GPTAnywhere</title>
+      <!-- Fav Icon -->
+      <link rel="icon" href="images/favicon.ico" />
+      <!-- Main StyleSheet -->
+      <link rel="stylesheet" href="style.css" />
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="css/responsive.css" />
 </head>
 <body>
-    <div>
-        <input id="input-el" type="text">
-        <button id="submit-btn"> submit </button>
-    </div>
-    <div id="content-El">
-        
-    </div>
+    <main>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-50">
+                    <!-- header-area start -->	
+                    <header class="header-area">
+                        <div class="container">
+                            <nav>
+                                <div class="logo">
+                                    <a href="#">
+                                        <ul>
+                                            <li><img src="images/logo2.png" class="img-fluid" alt=""></li>
+                                            <li>GPTAnywhere</li>
+                                        </ul>
+                                    </a>
+                                </div>
+                                <div class="x-icon">
+                                    <a href="#"><img src="images/Shape.png" class="img-fluid" alt=""></a>
+                                </div>
+                            </nav>
+                        </div>
+                    </header>
+                    <!-- header-area end -->
+                    
+                    <!-- Enter your prompt area-start -->
+                    <section class="keyword-area">
+                        <div class="container">
+                            <div class="keyword-potmpt-form">
+                                <div action="#">
+                                    <input type="search" placeholder="Enter your prompt!" id="input-el">
+                                    <div class="submit-">
+                                        <button type="submit" id="submit-btn"><img src="images/arrow.png" class="img-fluid" alt=""></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="key-wrod-inner" id="content-El"> <!-- Output --> </div>
+                        </div>
+                    </section>
+                    <!-- Enter your prompt area-end -->
+                </div>
+            </div>
+        </div>
+    </main>
     
     <script src="index.js" type="module"></script>
 </body>

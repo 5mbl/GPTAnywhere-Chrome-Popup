@@ -1,8 +1,14 @@
 {
-    "name": "ChatGPT for Google",
-    "description": "Display ChatGPT response alongside Google Search results",
-    "version": "1.1.0",
-    "manifest_version": 3,    
+    "name": "ChatGPT for Chrome",
+    "description": "Super Easy access to ChatGPT with a simple Chrome-Extension",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": {
+      "16": "logo.png",
+      "32": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    },
     "action": {
         "default_popup": "frontend/index.html"
     },
