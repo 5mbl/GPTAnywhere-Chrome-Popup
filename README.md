@@ -16,7 +16,7 @@
 <h4>Installing guide:</h4>
 After installing the zip & opening the folder. Open the Terminal in that Path and write: "npm run build"
 
-It will create a build folder. 
+It will create a **build** folder. 
 
 Then you copy paste the following files into your build folder:
 - manifest.json / root
