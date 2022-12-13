@@ -2,7 +2,16 @@ After installing the zip & opening the folder. Open the Terminal in that Path an
 
 It will create a build folder. 
 
-Then you copy paste the html into the "frontend" folder & the manifest.json files into the root of the build folder.
+Then you copy paste the following files into your build folder:
+- manifest.json / root
+- logo.png / root
+- css folder / inside frontend folder
+- images folder / inside frontend folder
+- index.html / inside frontend folder
+- style.css / inside frontend folder
+
+
+the manifest.json files into the root of the build folder and the follwing
 
 You can now unpack it in your chrome extension (chrome://extensions/)
 
