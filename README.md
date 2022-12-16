@@ -30,8 +30,9 @@ Then you copy paste the following files into your build folder:
 the manifest.json files into the root of the build folder and the follwing
 
 
-<h3 align="left">Images 📸</h3>
-![brandbird](https://user-images.githubusercontent.com/73127647/207998120-d1cc0549-40f8-4bcd-8f83-ec54212400f8.jpg)
+<h3 align="left">Images 📸</h3!
+  
+  ![image](https://user-images.githubusercontent.com/73127647/207998154-0250eaed-c114-4a6c-b21f-db06af6e1949.jpg)
 
-
+>
 
