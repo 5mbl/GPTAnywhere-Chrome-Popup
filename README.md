@@ -32,7 +32,8 @@ the manifest.json files into the root of the build folder and the follwing
 
 <h3 align="left">Images 📸</h3!
   
-  ![image](https://user-images.githubusercontent.com/73127647/207998154-0250eaed-c114-4a6c-b21f-db06af6e1949.jpg)
+
+![image](https://user-images.githubusercontent.com/73127647/207998154-0250eaed-c114-4a6c-b21f-db06af6e1949.jpg)
 
 >
 
