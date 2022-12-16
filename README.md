@@ -31,7 +31,7 @@ the manifest.json files into the root of the build folder and the follwing
 
 
 <h3 align="left">Images 📸</h3>
+![brandbird](https://user-images.githubusercontent.com/73127647/207998120-d1cc0549-40f8-4bcd-8f83-ec54212400f8.jpg)
 
-![product1](https://user-images.githubusercontent.com/73127647/207451659-16c2e516-cd4b-4cc7-b1be-b243602cd3d7.png)
-![image](https://user-images.githubusercontent.com/73127647/207453214-d4aa09d3-ff6a-4ead-bceb-1eb4a3fe5406.png)
+
 
