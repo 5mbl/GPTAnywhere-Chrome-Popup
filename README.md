@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Serdar</h1>
 <h3 align="center">A passionate fullstack developer from Berlin</h3>
 
-- 🔭 I’m currently working on **a ChatGPT Chrome Extension**
-
+- 🔭This project is about **a ChatGPT Chrome Extension**
+- 🧡 ProductHunt: https://www.producthunt.com/posts/gptanywhere
 - 📫 How to reach me **Twitter: @serdarplg**
 
 <h3 align="left">Connect with me:</h3>
@@ -12,9 +12,6 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
-
-<h3>Product Hunt: </h3>
-https://www.producthunt.com/posts/gptanywhere
 
 <h4>Installing guide:</h4>
 After installing the zip & opening the folder. Open the Terminal in that Path and write: "npm run build"
