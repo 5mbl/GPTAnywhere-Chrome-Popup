@@ -47,7 +47,7 @@ body {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .col-50 {
@@ -155,7 +155,7 @@ nav {
   font-weight: 400;
   font-size: 15px;
   color: #777E91;
-  width: 100%;
+  width: 80%;
   padding: 15px 16px;
   background: #F4F5F6;
   border-radius: 16px;
@@ -180,11 +180,13 @@ nav {
   font-size: 17px;
   font-weight: bold;
   margin-bottom: 35px;
+
 }
 .key-wrod-inner pre{
-  color: #efecec;
+  color: rgb(204, 198, 198);
+  font-family: 'Poppins';
+
   font-size: 15px;
-  font-weight: bold;
   white-space: pre-wrap;
   min-width: 0;
   margin-bottom: 0;
